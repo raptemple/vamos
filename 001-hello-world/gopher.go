@@ -8,10 +8,10 @@ func main() {
   fmt.Println(multiple_returns())
   fmt.Println(multiple_args(1, 2, 3))
 
-  clojure := func() string {
+  closure := func() string {
     return "10110101010101"
   }
-  fmt.Println(clojure())
+  fmt.Println(closure())
 
 }
 
